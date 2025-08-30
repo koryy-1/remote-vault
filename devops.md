@@ -1,4 +1,18 @@
-получить pods / deployments / services / nodes / namespaces / ingress / storageclass / pvc / pv
+## Docker
+
+создать docker образ
+```
+docker build -t koryy1/platformservice .
+```
+
+push to dockerhub
+```
+docker push koryy1/platformservice
+```
+
+## K8S
+
+получить pods / deployments / services / nodes / namespaces / ingress / storageclass / pvc / pv / endpoints
 ```
 kubectl get <component>
 ```
@@ -32,7 +46,13 @@ kubectl apply -f .\platforms-depl.yaml
 kubectl rollout restart deployment platforms-depl
 ```
 
-## secrets
+удалить деплоймент
+```
+kubectl delete deployment platforms-depl
+```
+
+### Secrets
+
 получить инфу
 ```
 kubectl get secrets
