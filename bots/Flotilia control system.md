@@ -7,13 +7,21 @@
 
 
 проекты:
+eve-bot-v2.0
 strategy-bot
-flot-control-system
-фронт на чистом ts/react
+- asp.net
+- мб будет функционал синхронизации между окнами
+- мб назвать bot-coordinator
 
-доп фишки
-Написать ci cd для eve bot 2.0
+flotilia-control-system
+- если eve-bot-v2.0 управляет кораблем, то это будет система которая управляет флотом из кораблей
+- возможно тоже будет управляться ботом верхнего уровня (strategy-bot)
+- мб для strategy-bot должно быть без разницы управляет ли он eve-bot-v2.0 или flotilia-control-system
+фронт на чистом ts/react
 
 названия
 space navy control system
 Augment
+
+другие названия для прослойки
+game-controller
