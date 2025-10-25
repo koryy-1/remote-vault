@@ -36,7 +36,17 @@ risk analyzer?
 - если какаято отрабатывает, то выставляется соотв флаг
 - и уже Insurance Service/Bot уже подрубается
 - тут в зависимости от приоритета, emergency bot имеет высокий приор
+- должен определять входящий дпс и скорость расчистки комнаты с НПС
+- при возникновении опасности уменьшает кд рабочего цикла
 
 
 список команд
+- MovementCommand
+- LockTargetsCommand
+- DestroyTargetCommand
+- LootingCommand
+- GotoNextSystemCommand
+- WarpToAnomalyCommand
+- DockToStationCommand
+- WarpToCommand
 - 
